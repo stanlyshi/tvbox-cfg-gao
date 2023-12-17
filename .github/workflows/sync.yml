@@ -39,9 +39,9 @@ env:
   # 上游仓库名称
   UPSTREAM_REPO: gao
   # GITEE仓库用户名
-  GITEE_USER: stanlyshi
+  GITEE_USER: ${{ secrets.GITEE_USER }}
   # GITEE仓库名称
-  GITEE_REPO: roag
+  GITEE_REPO: ${{ secrets.GITEE_REPO }}
   # 连接GITEE的SSH秘钥
   SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
   
